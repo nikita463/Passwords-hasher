@@ -59,7 +59,7 @@ int main() {
             cin >> password;
             password = sha256(password);
             passwords[login] = password;
-            cout << "Successful login!";
+            cout << "Successful registration!";
             islogined = true;
             Sleep(1000);
             goto main;
